@@ -1,3 +1,4 @@
+import time
 class currency_conv():
     def __init__(self) -> None:
        pass
@@ -13,6 +14,8 @@ class currency_conv():
           print(conver) 
 
 class cons(currency_conv):
+    print("Welcome to our awesome currency converter")
+    time.sleep(3)
     con_cur = input("enter the currency you want to convert to : ")
     if con_cur == "USD":  
         cn=currency_conv()

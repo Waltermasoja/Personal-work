@@ -3,6 +3,8 @@ class currency_conv():
     def __init__(self) -> None:
        pass
     def ZAR_USD(self):
+        print("welcome to USD conversion page thank you once again")
+        time.sleep(2)
         self.amount = int(input("enter the amount you want to convert from Rands to Rands to USD:"))
         exchange_rate = 6.67
         converted = (self.amount /100) *exchange_rate

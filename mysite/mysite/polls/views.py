@@ -10,7 +10,7 @@ def index(request):
 
         "latest_question_list":latest_question_list,
     }
-    return render(request,"polls/index.html",context)
+    return render(request,"index.html",context)
 
 def detail(request,question_id):
     try:
